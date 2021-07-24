@@ -17,7 +17,7 @@
       </div>
       <div class="flex flex-col sm:flex-row justify-center items-center w-screen my-6">
         <img src="https://avatars.githubusercontent.com/u/34689545" class="rounded-full max-w-sm"/>
-        <div class="p-4 flex flex-col flex-shrink items-start min-w-md max-w-md">
+        <div class="p-4 flex flex-col flex-shrink items-start max-w-md">
           <p class="text-6xl font-bold mb-4">Hi, I'm Sal</p>
           <p class="text-xl mb-2">
             I'm a computer science student interested in machine learning and quantitative analysis. 
@@ -43,12 +43,15 @@
     </div>
     <div id="experience" class="flex flex-col w-screen min-h-screen bg-yellow-100 bg-opacity-80">
       I want a daughter like nicky oh man i promise i turne her to a monster but no menages
+      <!-- bca, library, bloomberg, umd, resume link https://tailwindcomponents.com/component/simple-vertical-timeline -->
     </div>
     <div id="projects" class="flex flex-col w-screen min-h-screen bg-green-100 bg-opacity-80">
       I want a daughter like nicky oh man i promise i turne her to a monster but no menages
+      <!-- plannet, unionblue -->
     </div>
     <div id="contact" class="flex flex-col w-screen h-40 bg-purple-100 bg-opacity-80">
       I want a daughter like nicky oh man i promise i turne her to a monster but no menages
+      <!-- phone linkedin email https://www.wix.com/demone2/nicol-rider https://www.freecodecamp.org/news/send-emails-from-your-vue-application/ -->
     </div>
   </div>
 </template>
