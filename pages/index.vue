@@ -15,7 +15,7 @@
           </a>
         </div>
       </div>
-      <div class="flex flex-row justify-center items-start w-screen my-6">
+      <div class="flex flex-col sm:flex-row justify-center items-center w-screen my-6">
         <img src="https://avatars.githubusercontent.com/u/34689545" class="rounded-full max-w-sm"/>
         <div class="p-4 flex flex-col flex-shrink items-start min-w-md max-w-md">
           <p class="text-6xl font-bold mb-4">Hi, I'm Sal</p>
