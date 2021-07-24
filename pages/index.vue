@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div id="experience" class="flex flex-col w-screen min-h-screen bg-yellow-100 bg-opacity-80">
+    <div id="experience" class="flex flex-col w-screen bg-yellow-100 bg-opacity-80">
       <div class="flex justify-center w-screen my-2">
         <p class="text-4xl font-bold">Experience</p>
       </div>
@@ -50,15 +50,13 @@
         <p class="text-lg">You can view and download my résumé <a target="_blank" href="/resume.pdf" class="text-blue-500 hover:underline">here</a>.</p>
       </div>
       <Timeline />
-      <!-- bca, library, bloomberg, umd, resume link https://tailwindcomponents.com/component/simple-vertical-timeline -->
     </div>
 
-    <div id="projects" class="flex flex-col w-screen min-h-screen bg-green-100 bg-opacity-80">
+    <div id="projects" class="flex flex-col w-screen bg-green-100 bg-opacity-80">
       <div class="flex justify-center w-screen my-2">
         <p class="text-4xl font-bold">Projects</p>
       </div>
-      I want a daughter like nicky oh man i promise i turne her to a monster but no menages
-      <!-- plannet, unionblue -->
+      <Projects />
     </div>
 
     <div id="contact" class="flex flex-col w-screen bg-purple-100 bg-opacity-80">
@@ -96,13 +94,15 @@ import LinkedinIcon from 'vue-material-design-icons/Linkedin.vue'
 import EmailIcon from 'vue-material-design-icons/Email.vue'
 
 import Timeline from '../components/Timeline.vue'
+import Projects from '../components/Projects.vue'
 
 export default {
   components: {
     GithubIcon,
     LinkedinIcon,
     EmailIcon,
-    Timeline
+    Timeline,
+    Projects
   }
 }
 </script>
