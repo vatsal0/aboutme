@@ -47,7 +47,7 @@
         <p class="text-4xl font-bold">Experience</p>
       </div>
       <div class="flex justify-center w-screen my-1">
-        <p class="text-lg">You can view and download my résumé <a target="_blank" href="/resume.pdf" class="text-blue-500 hover:underline">here</a>.</p>
+        <p class="text-lg">You can view and download my résumé <a target="_blank" href="/resume08092021.pdf" class="text-blue-500 hover:underline">here</a>.</p>
       </div>
       <Timeline />
     </div>
